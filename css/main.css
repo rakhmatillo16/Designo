@@ -496,6 +496,10 @@ img {
   }
 }
 
+.hero {
+  margin-bottom: 160px;
+}
+
 .hero__back {
   background-image: url("../../images/hero-back.png");
   background-repeat: no-repeat;
@@ -661,5 +665,177 @@ img {
 
 .nav__item + .nav__item {
   margin-left: 42px;
+}
+
+.design__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design__link {
+  text-decoration: none;
+}
+
+.design__web {
+  background-image: url("../../images/web.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 541px;
+  padding: 273px 135px;
+}
+
+.design__heading {
+  margin: 0;
+  padding: 0;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.design__desc {
+  margin: 0;
+  padding: 0;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.design__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.design__app {
+  background-image: url("../../images/app.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 541px;
+  margin-bottom: 24px;
+  padding: 107px 143px;
+}
+
+.design__graphic {
+  background-image: url("../../images/graphic.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 541px;
+  padding: 107px 89px;
+}
+
+@media only screen and (max-width: 729px) {
+  .design__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .design__web {
+    background-image: url("../../images/tablet-web.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 689px;
+    margin-bottom: 24px;
+    padding: 53px 190px;
+  }
+  .design__app {
+    background-image: url("../../images/tablet-app.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 689px;
+    margin-bottom: 24px;
+    padding: 53px 197px;
+  }
+  .design__graphic {
+    background-image: url("../../images/tablet-graphic.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 689px;
+    padding: 53px 142px;
+  }
+}
+
+@media only screen and (max-width: 327px) {
+  .design__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .design__web {
+    background-image: url("../../images/mobile-web.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 327px;
+    padding: 90px 36px;
+  }
+  .design__heading {
+    margin: 0;
+    padding: 0;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+  }
+  .design__desc {
+    margin: 0;
+    padding: 0;
+    font-family: Jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .design__app {
+    background-image: url("../../images/mobile-app.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 327px;
+    margin-bottom: 24px;
+    padding: 90px 36px;
+  }
+  .design__graphic {
+    background-image: url("../../images/mobile-graphic.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 327px;
+    padding: 90px 16px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
