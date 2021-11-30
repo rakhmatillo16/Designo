@@ -1,0 +1,133 @@
+.hero {
+    &__back{
+
+        background-image: url("../../images/hero-back.png");
+        background-repeat: no-repeat;
+        padding: 145px 0;
+        padding-left: 95px;
+    }
+
+    &__left{
+        margin: 0;
+        padding: 0 20px;
+        max-width: 540px;
+    }
+
+    &__heading{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 25px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    &__desc{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 58px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width:729px){
+    .hero{
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__back{
+            background-image: url("../../images/tablet-hero-back.png");
+            background-repeat: no-repeat;
+            padding-top: 60px;
+            padding-right: 58px;
+            padding-bottom: 475px;
+            padding-left: 58px;
+        }
+
+        &__left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__heading{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 24px;
+            max-width: 573px;
+        }
+
+
+        &__desc{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 37px;
+            max-width: 445px;
+        }
+    }
+}
+
+@media only screen and (max-width:405px){
+    .hero{
+
+        &__back{
+            background-image: url("../../images/mobile-hero-back.png");
+            padding: 0;
+            padding-top: 80px;
+            padding-right: 24px;
+            padding-left: 24px;
+            padding-bottom: 467px;
+        }
+
+        &__left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        &__heading{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 14px;
+            max-width: 100%;
+            font-family: Jost;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        &__desc{
+            margin: 0;
+            padding: 0;
+            padding-bottom: 42px;
+            max-width: 327px;
+            font-family: Jost;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+
+        }
+    }
+}

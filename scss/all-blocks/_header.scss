@@ -1,0 +1,31 @@
+.header__container{
+    max-width: 1111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0px;
+
+    &__logo{
+        padding: 64px 0px;
+        flex-shrink: 0;
+    }
+}
+
+@media only screen and (max-width:689px){
+
+}
+
+@media only screen and (max-width:568px){
+
+   .header{
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__link-logo{
+            flex-shrink: 0;
+        }
+   }
+}
