@@ -51,7 +51,8 @@
         &__back{
             background-image: url("../../images/tablet-hero-back.png");
             background-repeat: no-repeat;
-            max-width: 689px;
+            // max-width: 689px;
+            background-size: cover;
             padding-top: 60px;
             padding-right: 58px;
             padding-bottom: 475px;

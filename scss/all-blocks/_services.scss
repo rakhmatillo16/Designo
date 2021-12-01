@@ -1,0 +1,111 @@
+.services{
+    &__container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+    }
+
+    &__item+&__item{
+        margin-left: 30px;
+    }
+
+    &__item-img{
+        padding-bottom: 24px;
+    }
+
+    &__item-heading {
+        margin: 0;
+        padding: 0;
+        padding-top: 24px;
+        padding-bottom: 16px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 5px;
+        color: #333136;
+    }
+
+    &__item-desc{
+        margin: 0;
+        padding: 0;
+        padding-top: 16px;
+        font-family: Jost;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333136;
+    }
+}
+
+@media only screen and (max-width:1118px){
+    .services{
+        &__container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        &__item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            max-width: 689px;
+        }
+
+        &__item+&__item {
+            margin-left: 0;
+        }
+
+        &__item-img{
+            padding: 0;
+        }
+
+        &__item-div{
+            display: flex;
+            flex-direction: column;
+            max-width: 439px;
+        }
+
+        &__item-heading{
+            padding: 0;
+            padding-top: 0;
+            padding-bottom: 16px;
+        }
+
+        &__item-desc{
+            padding: 0;
+            padding-top: 0;
+        }
+
+
+    }
+}
