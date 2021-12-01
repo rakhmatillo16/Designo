@@ -459,7 +459,6 @@ img {
 }
 
 .header__container {
-  max-width: 1111px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -469,6 +468,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1111px;
   padding: 64px 20px;
 }
 
@@ -480,6 +480,7 @@ img {
 
 @media only screen and (max-width: 1118px) {
   .header__container {
+    max-width: 689px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -799,7 +800,7 @@ img {
     text-align: center;
     max-width: 689px;
     margin-bottom: 24px;
-    padding: 53px 190px;
+    padding: 53px 0px;
   }
   .design__app {
     background-image: url("../../images/tablet-app.jpg");
@@ -807,7 +808,7 @@ img {
     text-align: center;
     max-width: 689px;
     margin-bottom: 24px;
-    padding: 53px 197px;
+    padding: 53px 0px;
   }
   .design__graphic {
     background-image: url("../../images/tablet-graphic.jpg");
@@ -815,6 +816,7 @@ img {
     text-align: center;
     max-width: 689px;
     padding: 53px 142px;
+    width: 500px;
   }
 }
 
@@ -836,7 +838,7 @@ img {
     background-repeat: no-repeat;
     text-align: center;
     max-width: 327px;
-    padding: 90px 36px;
+    padding: 90px 5px;
   }
   .design__heading {
     margin: 0;
@@ -868,14 +870,14 @@ img {
     text-align: center;
     max-width: 327px;
     margin-bottom: 24px;
-    padding: 90px 36px;
+    padding: 90px 5px;
   }
   .design__graphic {
     background-image: url("../../images/mobile-graphic.jpg");
     background-repeat: no-repeat;
     text-align: center;
     max-width: 327px;
-    padding: 90px 16px;
+    padding: 90px 5px;
   }
 }
 /*# sourceMappingURL=main.css.map */
