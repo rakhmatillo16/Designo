@@ -4,6 +4,7 @@
 
         background-image: url("../../images/hero-back.png");
         background-repeat: no-repeat;
+        max-width: 100%;
         padding: 145px 0;
         padding-left: 95px;
     }
@@ -38,7 +39,7 @@
         color: #FFFFFF;
     }
 }
-@media only screen and (max-width:729px){
+@media only screen and (max-width:1118px){
     .hero{
         display: flex;
         margin: 0 auto;
@@ -50,6 +51,7 @@
         &__back{
             background-image: url("../../images/tablet-hero-back.png");
             background-repeat: no-repeat;
+            // max-width: 100%;
             padding-top: 60px;
             padding-right: 58px;
             padding-bottom: 475px;

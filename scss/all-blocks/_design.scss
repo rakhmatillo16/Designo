@@ -65,8 +65,12 @@
     }
 }
 
-@media only screen and (max-width:729px){
+@media only screen and (max-width:1118px){
     .design{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
         &__container{
             display: flex;
             flex-direction: column;
