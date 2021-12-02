@@ -35,6 +35,12 @@
 
         &__link-logo{
             flex-shrink: 0;
+
+        }
+
+        &__logo{
+            padding:0;
+            flex-shrink: 0;
         }
    }
 }

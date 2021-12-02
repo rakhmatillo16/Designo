@@ -7,6 +7,10 @@
         list-style: none;
     }
 
+    &__item + &__item{
+        margin-left: 42px;
+    }
+
     &__link{
         text-decoration: none;
         font-family: Jost;
@@ -16,10 +20,6 @@
         line-height: 14px;
         letter-spacing: 2px;
         color: #333136;
-    }
-
-    &__item + &__item{
-        margin-left: 42px;
     }
 }
 

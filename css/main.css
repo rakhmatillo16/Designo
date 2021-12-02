@@ -509,6 +509,11 @@ img {
     -ms-flex-negative: 0;
         flex-shrink: 0;
   }
+  .header__logo {
+    padding: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
 }
 
 .main {
@@ -676,6 +681,10 @@ img {
   list-style: none;
 }
 
+.nav__item + .nav__item {
+  margin-left: 42px;
+}
+
 .nav__link {
   text-decoration: none;
   font-family: Jost;
@@ -687,14 +696,14 @@ img {
   color: #333136;
 }
 
-.nav__item + .nav__item {
-  margin-left: 42px;
-}
-
 @media only screen and (max-width: 609px) {
   .nav {
     display: none;
   }
+}
+
+.design {
+  padding-bottom: 80px;
 }
 
 .design__container {
@@ -880,6 +889,10 @@ img {
     max-width: 327px;
     padding: 90px 5px;
   }
+}
+
+.services {
+  padding-top: 80px;
 }
 
 .services__container {
