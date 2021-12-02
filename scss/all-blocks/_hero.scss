@@ -11,7 +11,7 @@
 
     &__left{
         margin: 0;
-        padding: 0 20px;
+        padding: 0 ;
         max-width: 540px;
     }
 
@@ -39,7 +39,7 @@
         color: #FFFFFF;
     }
 }
-@media only screen and (max-width:1118px){
+@media only screen and (max-width:768px){
     .hero{
         display: flex;
         margin: 0 auto;
@@ -51,12 +51,12 @@
         &__back{
             background-image: url("../../images/tablet-hero-back.png");
             background-repeat: no-repeat;
-            // max-width: 689px;
+            max-width: 100%;
             background-size: cover;
             padding-top: 60px;
             padding-right: 58px;
-            padding-bottom: 475px;
             padding-left: 58px;
+            padding-bottom: 475px;
         }
 
         &__left{
@@ -84,7 +84,7 @@
     }
 }
 
-@media only screen and (max-width:405px){
+@media only screen and (max-width:542px){
     .hero{
 
         &__back{
