@@ -458,7 +458,7 @@ img {
   color: #333136;
 }
 
-.header__container {
+.header__open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -479,7 +479,7 @@ img {
 }
 
 @media only screen and (max-width: 1118px) {
-  .header__container {
+  .header__open {
     max-width: 689px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -494,7 +494,7 @@ img {
 }
 
 @media only screen and (max-width: 542px) {
-  .header__container {
+  .header__open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -670,6 +670,10 @@ img {
     text-align: center;
     color: #FFFFFF;
   }
+}
+
+.nav {
+  white-space: nowrap;
 }
 
 .nav__list {
